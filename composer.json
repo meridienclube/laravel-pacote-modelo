@@ -1,0 +1,33 @@
+{
+    "name": "meridienclube/laravel-pacote-modelo",
+    "version": "dev-master",
+    "description": "Pacote modelo para teste",
+    "keywords": [
+        "comment",
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Ricardo Brusch",
+            "email": "brusch.ricardo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MeridienClube\\PacoteModelo\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MeridienClube\\PacoteModelo\\Providers\\PacoteModeloServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
+
